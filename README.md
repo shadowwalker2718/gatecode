@@ -12,9 +12,18 @@ Python's simplicity and flexibility come with a trade-off: source code is easily
 
 ## How It Works ⚙️
 
+### 0. Install `gatecode` 🚀
+
+Just run the command to install `gatecode`, which would be used later:
+
+```
+pip install gatecode
+```
+
 ### 1. Prepare Your Python Script 🔧
 
 Suppose you have a Python file named `my_awesome_code.py` containing sensitive logic:
+
 ```python
 # secret algorithm with secret numbers
 def func(a, b):
@@ -30,11 +39,12 @@ Once encrypted, you will receive a file, for example: `my_valuable_code`.
 ### 3. Integrate Encrypted Package 🔐
 
 Use the following script to load and use your encrypted code:
+
 ```python
 import os
 from gatecode import add_dp_package
 
-# Pass the absolute path of the downloaded file to add_dp_package
+# Pass the absolute path of the downloaded file to add_dp_package (note: do not remove the underscore _)
 here = os.path.dirname(os.path.abspath(__file__))
 _ = add_dp_package(os.path.join(here, 'my_valuable_code'))
 
