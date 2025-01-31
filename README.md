@@ -10,6 +10,8 @@ Python's simplicity and flexibility come with a trade-off: source code is easily
 
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UMswFxcbPRY?si=tKNik98aGy_xV-vX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## How It Works ⚙️
 
 ### 0. Install `gatecode` 🚀
